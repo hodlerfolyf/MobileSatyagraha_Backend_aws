@@ -364,7 +364,7 @@ class database_flaskr:
 					"problem_desc": x[7],
 					"duration": x[8]} for x in db_response]
 		return json.dumps(db_parse)
-# Song story is for entertainment no timpact, news = situational awareness non-impact, culture= non impact, bultoo= radio program non imapct, problem= grieveance impact based, Issues for impact : coal mining, education,.... , nrega all cover impact.
+# Song story is for entertainment no timpact, news = situational awareness non-impact, culture= non impact, bultoo= radio program non imapct, problem= grieveance impact based, Issues for impact : coal mining, education,.... , nrega all cover impact. updated to loudblog
 	def fetchBlock(self,s,e):
 		pingAndReconnect(self)
 		blank=""
